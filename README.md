@@ -4,7 +4,7 @@
 * Three different solutions:
     * Solution 1 (O(n)): count days from the samller one, stop until both dates are identical.
     * Solution 2 (O(1)): based on the solution 1, count days from 01/01/1901 to 31/01/2999, then save the date and the counted days into a hash map. This map is kept in memory and can be used for further counting purpose.
-    * Solution 3 (O(1): according to the formula on internet, both dates are converted from the Gregorian calendar to the Julian day number, followed by a substraction on the numbers.
+    * Solution 3 (O(1)): according to the formula on internet, both dates are converted from the Gregorian calendar to the Julian day number, followed by a substraction on the numbers.
 * Compile & test: mvn clean package
 * Run application: java -jar daycounter.jar 03/01/1989 03/08/1983
 
